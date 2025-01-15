@@ -1,0 +1,228 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+} */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    border: 1px solid #006A50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #006A50;
+    font-weight: bold;
+}
+
+header a:hover {
+    background-color: #006A50;
+    color: #fff;
+}
+
+.idea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.idea .content {
+    max-width: 50%;
+    /* margin-left: 20; */
+    /* margin-right: auto; */
+
+}
+
+.idea h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+} 
+
+.idea p {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.idea a {
+    text-decoration: none;
+    border: 1px solid #006A50;
+    padding: 10px 20px;
+    /* margin-top: 0px; */
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #006A50;
+}
+
+.idea a:hover {
+    background-color: #047649cf;
+    color: #fff;
+}
+
+.pillars {
+    display:block;
+    justify-content: space-between; 
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.pillars h2 {
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.pillars .boxes {
+    display: flex;
+    gap: 20px;
+}
+
+.pillars .box {
+    background-color: #FFFFFF;
+    border: 1px solid #b5b4b4;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    width: auto;
+    height: auto;
+}
+
+.pillars .box h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.pillars .box p {
+    font-size: 14px;
+    color: #666;
+}
+
+.vision {
+    padding: 40px 20px;
+}
+
+.vision h2 {
+    font-size: 28px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.vision p {
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 40px;
+    color: #222222;
+}
+
+.vision .cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.vision .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card1 {
+    background-color: #43b458;
+}
+.card1 .btn{
+    background-color: #ffffff;
+}
+
+.card2 {
+    background-color: #8a6a26;
+}
+.card2 .btn{
+    background-color: #ffffff;
+}
+
+.card3 {
+    background-color: #a64ea7;
+}
+.card3 .btn{
+    background-color: #ffffff;
+}
+
+.vision .card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.vision .card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #764d4d;
+  }
+
+.vision .card .btn:hover {
+    background-color: #005c3b;
+}
+
+.quote {
+    background-color: #fff;
+    background-image: url(../B11A1--assignment-1/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 40px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.quote p {
+    font-style: italic;
+    color: #201f1f;
+    margin-bottom: 20px;
+}
+
+.quote h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #201f1f;
+}
+
+.quote span {
+    font-size: 14px;
+    color: #201f1f;
+}
