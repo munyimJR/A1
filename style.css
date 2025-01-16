@@ -2,26 +2,23 @@
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
+    font-variation-settings: "width" 100;
   }
-/* body {
-    font-family: Arial, sans-serif;
+body {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-} */
+}
 
 header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+    max-width: 80%;
+    margin: 10px auto;
+    justify-content:space-between;
+    /* padding: 10px; */
 }
 
 header h1 {
-    font-size: 24px;
+    font-size: 30px;
     margin: 0;
 }
 
@@ -40,12 +37,14 @@ header a:hover {
 }
 
 .idea {
+    max-width: 77.5% ;
+    margin: 50px auto;
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #C6E4D6;
     padding: 40px;
-    margin: 20px;
     border-radius: 10px;
 }
 
@@ -71,7 +70,6 @@ header a:hover {
     text-decoration: none;
     border: 1px solid #006A50;
     padding: 10px 20px;
-    /* margin-top: 0px; */
     border-radius: 5px;
     color: #fff;
     font-weight: bold;
@@ -84,6 +82,8 @@ header a:hover {
 }
 
 .pillars {
+    max-width:80% ;
+    margin: 50px auto;    
     display:block;
     justify-content: space-between; 
     align-items: center;
@@ -123,7 +123,13 @@ header a:hover {
 }
 
 .vision {
+    max-width:80% ;
+    margin: 50px auto;
     padding: 40px 20px;
+    /* display:block;
+    justify-content: space-between; 
+    align-items: center;
+    text-align: center; */
 }
 
 .vision h2 {
@@ -141,8 +147,10 @@ header a:hover {
 
 .vision .cards {
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-between;
+    gap: 5px;
+    height: auto;
+    width: auto;
 }
 
 .vision .card {
@@ -155,24 +163,26 @@ header a:hover {
 }
 
 .card1{
-    background-color: #43b458;
+    background-color: #6285c294;
 }
 .card1 .btn{
-    background-color: #ffffff;
+    background-color: #5490F5;
 }
 
 .card2 {
-    background-color: #8a6a26;
+    background-color: #C6E4D6;
 }
 .card2 .btn{
-    background-color: #ffffff;
+    background-color: #09A15C;
 }
 
 .card3 {
-    background-color: #a64ea7;
+    background-color: #F7EBCF;
 }
 .card3 .btn{
-    background-color: #ffffff;
+    /* align-items: baseline;
+    align-items: center; */
+    background-color: #FFC239;
 }
 
 .vision .card h3 {
@@ -187,12 +197,12 @@ header a:hover {
 }
 
 .card .btn {
-    display: inline-block;
+    display:inline-flex;
     padding: 10px 20px;
     border-radius: 4px;
     text-decoration: none;
     font-weight: bold;
-    color: #764d4d;
+    color: #ffffff;
   }
 
 .vision .card .btn:hover {
@@ -200,14 +210,14 @@ header a:hover {
 }
 
 .quote {
+    max-width:80% ;
+    margin: 50px auto;
     background-color: #fff;
     background-image: url(./assets/quote-bg.png);
     background-repeat: no-repeat;
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 10px;
-    margin-left: 120px;
-    margin-right: 120px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -229,9 +239,8 @@ header a:hover {
 }
 
 .opinion {
-    margin-left: 120px;
-    margin-right: 120px;
-    margin: 40px auto;
+    max-width:80% ;
+    margin: 50px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
@@ -242,13 +251,16 @@ header a:hover {
     text-align: left;
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    /* margin-bottom: 20px; */
   }
 
   .table {
     width: 100%;
-    
-    /* border-collapse: collapse; */
+    /* display: inline-table; */
+    /* max-width:100% ; */
+    /* margin: 50px auto; */
+    border-collapse: collapse;
   }
 
   .table th, .table td {
@@ -265,17 +277,17 @@ header a:hover {
   }
 
 .selector {
-    color: #006A50;
-    padding: 30px;
-    border: 1px solid #ccc;
+    color: solid #000000;
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     cursor: pointer;
+    background-color: #09a15d72;
 }
 
 .news {
-    margin-left: 120px;
-    margin-right: 120px;
-    
+    max-width:80% ;
+    margin: 50px auto;
     padding: 20px;
     background-color: #fff;
   }
@@ -303,25 +315,20 @@ header a:hover {
   }
 
   .content h3 {
-    /* font-size: 20px; */
     font-weight: bold;
     margin-top: 0px;
   }
 
   .time {
-    /* font-size: 14px; */
-    color: #0E0E0E;
+    color: #0e0e0e7f;
     margin-bottom: 15px;
   }
 
   .news-img img {
-    /* flex: 1; */
-    /* align-items: flex-end; */
     width: 300px;
     justify-content: center;
     margin-right: 20px;
     border-radius: 8px;
-    /* overflow: hidden; */
   }
 
   .text {
@@ -329,12 +336,11 @@ header a:hover {
   }
 
   .read-more {
-    /* display: inline-block; */
+    display: inline-block;
     padding: 10px 20px;
-    /* font-size: 14px; */
     font-weight: bold;
     color: #fff;
-    background-color: #28a745;
+    background-color: #006A50;
     text-decoration: none;
     border-radius: 4px;
   }
@@ -346,13 +352,14 @@ header a:hover {
     max-width:80% ;
     margin: 50px auto;
     background: #ffffff;
+    text-align: center;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .donate h1 {
-    font-size: 24px;
+    /* font-size: 24px; */
     margin-bottom: 20px;
 }
 
@@ -364,7 +371,9 @@ header a:hover {
 
 .donation-options {
     display: flex;
-    justify-content: space-around;
+    gap: 5px;
+    align-content: center;
+    justify-content: center;
     margin-bottom: 20px;
 }
 
@@ -374,8 +383,10 @@ header a:hover {
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
-    /* transition: background 0.3s, color 0.3s; */
+    text-align: center;
+    justify-content: center;
 }
 
 .donation-options button:hover {
@@ -383,26 +394,21 @@ header a:hover {
     color: #ffffff;
 }
 
-/* .donation-options .active {
-    background: #28a745;
-    color: #ffffff;
-    border-color: #28a745;
-} */
-
 .other-amount {
     margin-bottom: 20px;
 }
 
 .other-amount input {
-    width: calc(100% - 20px);
+    width: 80%;
     padding: 10px;
     font-size: 16px;
     border: 2px solid #6c757d;
     border-radius: 5px;
+    box-sizing: border-box;
 }
 
 .donate-button {
-    background: #28a745;
+    background: #006A50;
     color: #ffffff;
     box-align: center;
     border: none;
@@ -410,10 +416,74 @@ header a:hover {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    transition: background 0.3s;
 }
 
 .donate-button:hover {
     background: #218838;
 }
 
+.subscribe { 
+    max-width:80% ;
+    margin: 50px auto;
+    background-color: #d1e7dd;
+    padding: 20px; 
+    border-radius: 10px; 
+    text-align: center;  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+} 
+.subscribe h1 { 
+    font-size: 24px; 
+    margin-bottom: 10px; 
+} 
+.subscribe p { 
+    font-size: 16px; 
+    margin-bottom: 20px; 
+}
+.subscribe input[type="email"] { 
+    padding: 10px; 
+    width: 70%; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    margin-right: 0px;
+}
+.subscribe button { 
+    padding: 10px 20px; 
+    background-color: #006A50; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+} 
+.subscribe button:hover { 
+    background-color: #218838;
+}
+.promise { 
+    margin-top: 10px; 
+    font-size: 14px; 
+    color: #666; 
+} 
+footer { 
+    margin-top: 20px; 
+    text-align: center; 
+} 
+footer h2 { 
+    font-size: 20px; 
+    margin-bottom: 10px; 
+} 
+footer .hr{
+    width: 85%;
+    size: 5;
+    border-radius: 1px;
+    color: #ffffff9d;
+}
+footer .icons { 
+    display: flex; 
+    justify-content: center; 
+    gap: 15px;
+}
+footer .icons a { 
+    text-decoration: none; 
+    color: #000; 
+    font-size: 24px;
+}
